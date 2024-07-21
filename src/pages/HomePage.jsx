@@ -43,7 +43,13 @@ function HomePage() {
           <button className='bg-blue-500 textqueen text-white font-bold px-[20px] py-[10px] rounded-lg mt-5 mb-10' onClick={handleInfo}>View More</button>
         </div>
       </div>
+      <div className='flex flex-col items-center'>
+        <h1 className='border-dotted border-8 border-sky-500 mt-[20px] bg-blue-200 font-bold text-3xl'>Who we are</h1>
+        <p className='border-solid border-8 border-sky-500 mt-[20px] bg-blue-200 font-bold text-2xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem pariatur, eum labore illum, aut ducimus error in delectus laudantium rem excepturi quis nobis necessitatibus beatae voluptate ipsum iusto aliquam ipsa?</p>
+      </div>
     </div>
+
+    
   )
 }
 
